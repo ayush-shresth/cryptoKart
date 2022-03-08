@@ -1,9 +1,7 @@
 import './App.css';
 import React from 'react';
-
 import { Routes, Route, Link, Switch } from 'react-router-dom';
 import { Button, Menu, Typography, Avatar, Space } from 'antd';
-
 import { Navbar, Homepage, Exchanges, Cryptocurrencies, CryptoDetails, News } from "./components";
 import Layout from 'antd/lib/layout/layout';
 // import Footer from "./components/Footer.js";
