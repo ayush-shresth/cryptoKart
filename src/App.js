@@ -1,44 +1,52 @@
-import './App.css';
 import React from 'react';
-import { Routes, Route, Link, Switch } from 'react-router-dom';
-import { Button, Menu, Typography, Avatar, Space } from 'antd';
-import { Navbar, Homepage, Exchanges, Cryptocurrencies, CryptoDetails, News } from "./components";
-import Layout from 'antd/lib/layout/layout';
-// import Footer from "./components/Footer.js";
-// import Main from "./components/Main.js";
+import { Switch, Route, Link } from 'react-router-dom';
+import { Layout, Typography, Space } from 'antd';
 
-function App() {
-  return (
-    <div className="app">
-      <div className="navbar">
-        <Navbar />
-      </div>
-      <div className="main">
-        <Layout>
-          <div className="routes">
-            <Routes>
-              <Route exact path='/' element={<Homepage />} />
-              <Route exact path='/exchanges' element={<Exchanges />} />
-              <Route exact path='/cryptocurrencies' element={<Cryptocurrencies />} />
-              <Route exact path='/crypto/:coinId' element={<CryptoDetails />} />
-              <Route exact path='/news' element={<News />} />
-            </Routes>
-          </div>
-        </Layout>
-        <div className="footer" >
-          <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>
-            Cryptoverse <br />
-            All rights reverserd
-          </Typography.Title>
-          <Space>
-            <Link to='/'>Home</Link>
-            <Link to='/exchanges'>Exchanges</Link>
-            <Link to='/news'>News</Link>
-          </Space>
+import { Exchanges, Homepage, News, Cryptocurrencies, CryptoDetails, Navbar } from './components';
+import './App.css';
+
+const App = () => (
+  <div className="app">
+    <div className="navbar">
+      <Navbar />
+    </div>
+    <div className="main">
+      <Layout>
+        <div className="routes">
+          <Switch>
+            <Route exact path="/">
+              <Homepage />
+            </Route>
+            <Route exact path="/exchanges">
+              <Exchanges />
+            </Route>
+            <Route exact path="/cryptocurrencies">
+              <Cryptocurrencies />
+            </Route>
+            <Route exact path="/crypto/:coinId">
+              <CryptoDetails />
+            </Route>
+            <Route exact path="/news">
+              <News />
+            </Route>
+          </Switch>
         </div>
+      </Layout>
+      <div className="footer">
+        <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>Copyright © 2022
+          <Link to="/">
+            CryptoKart
+          </Link> <br />
+          All Rights Reserved.
+        </Typography.Title>
+        <Space>
+          <Link to="/">Home</Link>
+          <Link to="/exchanges">Exchanges</Link>
+          <Link to="/news">News</Link>
+        </Space>
       </div>
     </div>
-  );
-}
+  </div>
+);
 
 export default App;
