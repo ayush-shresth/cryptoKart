@@ -4,7 +4,7 @@ import { Layout, Typography, Space } from 'antd';
 
 import { Exchanges, Homepage, News, Cryptocurrencies, CryptoDetails, Navbar } from './components';
 import './App.css';
-
+const sty = { color: 'white', textAlign: 'center', fontSize: '.9em', paddingTop: '5px' };
 const App = () => (
   <div className="app">
     <div className="navbar">
@@ -33,17 +33,17 @@ const App = () => (
         </div>
       </Layout>
       <div className="footer">
-        <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>Copyright © 2022
+        <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>Copyright © 2022 &nbsp;
           <Link to="/">
             CryptoKart
           </Link> <br />
-          All Rights Reserved.
         </Typography.Title>
         <Space>
-          <Link to="/">Home</Link>
-          <Link to="/exchanges">Exchanges</Link>
-          <Link to="/news">News</Link>
+          <a href='https://www.linkedin.com/in/ayush-514875198/' target={'blank'}>Linked-In</a>&nbsp;&nbsp;
+          <a href='https://github.com/ayush-shresth/' target={'blank2'}>Github</a>
         </Space>
+
+        <div style={sty}> ayushshresth97@gmail.com   +91766780742 </div>
       </div>
     </div>
   </div>
