@@ -1,74 +1,96 @@
-<<<<<<< HEAD
-# cryptoKart
-=======
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Hi, I'm Ayush Shresth! 👋
 
-## Available Scripts
 
-In the project directory, you can run:
+# CryptoKart - Explore the World of Cryptocurrency
 
-### `npm start`
+In this application, I created a cryptocurrency web application to view and track the crypto-currencies.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I uses **React, Redux, Chart.js and multiple APIs** for Coins, Graph, Exchanges, And News powered by https://rapidapi.com.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+It also includes the detail of eyery individual coin and all the relevent links of it.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Demo
+Try it at your Own
 
-### `npm run build`
+https://cryptokart-ayush-shresth.netlify.app/
+## Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Screenshot (150)](https://user-images.githubusercontent.com/55576970/159001606-0825f42e-528b-44bd-972a-c0d2f6841096.png)
+![Screenshot (151)](https://user-images.githubusercontent.com/55576970/159001584-dd588590-5346-488a-a8c7-4055529e254f.png)
+![Screenshot (152)](https://user-images.githubusercontent.com/55576970/159001592-1394e76b-7bf6-494a-b724-16c4402c74fe.png)
+![Screenshot (153)](https://user-images.githubusercontent.com/55576970/159001596-06b382a7-1590-4a77-9081-39f1f51a7983.png)
+![Screenshot (154)](https://user-images.githubusercontent.com/55576970/159001601-1ff51cd4-d68a-4384-9393-b72a589fa0a0.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
+This project was bootstrapped with Create React App.
 
-### `npm run eject`
+Install my-project with npm
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+  npm install 
+  cd cryptoKart
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+    
+## Run Locally
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Clone the project
 
-## Learn More
+```bash
+  git clone https://github.com/ayush-shresth/cryptoKart.git
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Go to the project directory
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+  cd cryptoKart
+```
 
-### Code Splitting
+Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+  npm install
+```
 
-### Analyzing the Bundle Size
+Start the server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+  npm start
+```
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Deployment
 
-### Advanced Configuration
+To deploy this project run
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+  npm run deploy
+```
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🚀 About Me
 
-### `npm run build` fails to minify
+I'm a very enthusiastic coder who desires to learn and a solution-oriented individual with a variety of technical skills.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> master
+-Proficiency in java & Python.
+
+-Strong Problem-Solving Skills.
+
+-Good Knowledge of Data Structures & Algorithms.
+
+-Command over both Frontend & Backend Web Development (django+react).
+
+
+## 🔗 Links
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayush-514875198/)
+## 🛠 Skills
+Django, React.js, Redux, Python, Javascript, Java, HTML, CSS...
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at ayushshresth97@gmail.com
