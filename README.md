@@ -20,8 +20,9 @@ https://cryptokart-ayush-shresth.netlify.app/
 ![Screenshot (150)](https://user-images.githubusercontent.com/55576970/159001606-0825f42e-528b-44bd-972a-c0d2f6841096.png)
 ![Screenshot (151)](https://user-images.githubusercontent.com/55576970/159001584-dd588590-5346-488a-a8c7-4055529e254f.png)
 ![Screenshot (152)](https://user-images.githubusercontent.com/55576970/159001592-1394e76b-7bf6-494a-b724-16c4402c74fe.png)
-![Screenshot (153)](https://user-images.githubusercontent.com/55576970/159001596-06b382a7-1590-4a77-9081-39f1f51a7983.png)
 ![Screenshot (154)](https://user-images.githubusercontent.com/55576970/159001601-1ff51cd4-d68a-4384-9393-b72a589fa0a0.png)
+![Screenshot (155)](https://user-images.githubusercontent.com/55576970/159104021-8f56e1aa-7daf-4592-ad9d-020bd597c028.png)
+![Screenshot (157)](https://user-images.githubusercontent.com/55576970/159104025-c35c0ec0-aa94-4401-a001-b7a5f18c1d9b.png)
 
 
 ## Installation
